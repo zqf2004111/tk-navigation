@@ -681,10 +681,18 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   text-align: center;
 }
 .footer-beian a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   color: var(--text-tertiary);
   font-size: 12px;
   text-decoration: none;
   transition: color 0.2s ease;
+}
+.footer-beian a .beian-badge {
+  display: block;
+  width: 16px;
+  height: 16px;
 }
 .footer-beian a:hover {
   color: var(--text-secondary);
