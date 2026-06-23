@@ -675,26 +675,23 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   font-weight: 600; 
   font-size: 13px;
 }
-.footer-beian {
-  max-width: var(--maxw);
-  margin: 12px auto 0;
-  text-align: center;
-}
-.footer-beian a {
+.footer-beian-link {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  margin-left: 12px;
   color: var(--text-tertiary);
-  font-size: 12px;
   text-decoration: none;
   transition: color 0.2s ease;
+  vertical-align: middle;
 }
-.footer-beian a .beian-badge {
-  display: block;
-  width: 16px;
-  height: 16px;
+.footer-beian-link .beian-badge {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
 }
-.footer-beian a:hover {
+.footer-beian-link:hover {
   color: var(--text-secondary);
 }
 
