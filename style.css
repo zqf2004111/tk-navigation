@@ -675,6 +675,20 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   font-weight: 600; 
   font-size: 13px;
 }
+.footer-beian {
+  max-width: var(--maxw);
+  margin: 12px auto 0;
+  text-align: center;
+}
+.footer-beian a {
+  color: var(--text-tertiary);
+  font-size: 12px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.footer-beian a:hover {
+  color: var(--text-secondary);
+}
 
 /* ===== 浮动微信按钮 ===== */
 .fab-wx {
