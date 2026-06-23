@@ -1,0 +1,12 @@
+# 截图文件
+shot-*.png
+shot.cjs
+
+# 临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# 密钥文件
+github.txt
