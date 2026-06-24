@@ -676,8 +676,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   font-size: 13px;
 }
 .footer-beian {
-  max-width: var(--maxw);
-  margin: 12px auto 0;
+  margin: 0;
   text-align: center;
 }
 .footer-beian-link {
